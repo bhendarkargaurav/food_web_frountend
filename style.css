@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* color ready */
+:root {
+    --lead: #212121;
+    --gold-finger: #F2BD12;
+    --eye-ball: #FFFDF7;
+    --hint-yellow: #fCF1CC;
+    --pure-white: #FFF;
+}
+body{
+    background: var(--eye-ball);
+}
+
+/* BASIC STYLING */
+
+a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--lead);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.gap{
+    gap: 3rem;
+}
+
+.wrapper{
+    max-width: 1400px;
+    /* background: gold; */
+    margin: auto;
+    padding-inline: 1.5rem;
+}
+
+/* HEADER STYLING */
+
+.navbar{
+    min-height: 14vh;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--gold-finger);
+}
+
+.btn{
+    display: inline-block;
+    padding: .9rem 2rem;
+    background: var(--gold-finger);
+    border-radius: 1rem;
+    font-size:1.1rem;
+    color: var(--pure-white);
+    box-shadow: rgba(0, 0, 0, 0.5) 0 2px 1px;
+    transition: .1s ease-in-out;
+}
+
+.btn:hover{
+    background: var(--lead);
+}
+/* SECTION STYLING */
+
+/* FOOTER STYLING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
