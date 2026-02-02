@@ -44,6 +44,10 @@ li{
     gap: 3rem;
 }
 
+.gap-2{
+    gap:2rem
+}
+
 .wrapper{
     max-width: 1400px;
     /* background: gold; */
@@ -77,6 +81,24 @@ li{
 .btn:hover{
     background: var(--lead);
 }
+
+.cart-icon {
+    color: var(--lead);
+    font-size: 1.3rem;
+}
+
+
+.cart-icon .cart-value{
+    position: absolute;
+    font-size: .85rem;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    background: var(--gold-finger);
+}
+
+
+
 /* SECTION STYLING */
 
 /* FOOTER STYLING */
