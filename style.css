@@ -85,6 +85,7 @@ li{
 .cart-icon {
     color: var(--lead);
     font-size: 1.3rem;
+    position: relative;
 }
 
 
@@ -95,8 +96,16 @@ li{
     aspect-ratio: 1;
     border-radius: 100vw;
     background: var(--gold-finger);
+    color: var(--lead);
+    text-align: center;
+    line-height: 20px;
 }
 
+
+.desktop-action .hamburger{
+    font-size: 1.5rem;
+    display: none;
+}
 
 
 /* SECTION STYLING */
